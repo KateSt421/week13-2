@@ -1,0 +1,38 @@
+.main {
+  text-align: center;
+}
+
+#date {
+  padding: 10px;
+  background-color: rgb(168, 214, 195);
+  border-radius: 5px;
+  border-style: none;
+  color: rgb(43, 50, 72);
+  font-size: 20px;
+  margin-right: 10px;
+}
+#calculate {
+  padding: 10px;
+  background-color: rgb(168, 214, 195);
+  border-radius: 5px;
+  border-style: none;
+  color: rgb(43, 50, 72);
+  font-size: 20px;
+}
+
+#calculate:hover {
+  background-color: rgb(97, 96, 99);
+  color: white;
+  cursor: pointer;
+}
+
+#text,
+#result {
+  color: rgb(25, 24, 24);
+  font-size: 20px;
+}
+.error {
+  color: red;
+  display: none;
+  font-size: 20px;
+}
